@@ -19,3 +19,6 @@ def app():
         except Exception as e:
             st.error(f"Error: {e}")
     conn.close()
+
+app()
+
