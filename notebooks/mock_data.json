@@ -1,0 +1,34 @@
+{
+  "players": [
+    {"player_id": 1, "name": "Virat Kohli", "team": "India", "role": "Batsman", "runs": 12000, "wickets": 4},
+    {"player_id": 2, "name": "Rohit Sharma", "team": "India", "role": "Batsman", "runs": 10000, "wickets": 8},
+    {"player_id": 3, "name": "MS Dhoni", "team": "India", "role": "Wicketkeeper", "runs": 10500, "wickets": 1},
+    {"player_id": 4, "name": "Jasprit Bumrah", "team": "India", "role": "Bowler", "runs": 500, "wickets": 250},
+    {"player_id": 5, "name": "Babar Azam", "team": "Pakistan", "role": "Batsman", "runs": 8000, "wickets": 2},
+    {"player_id": 6, "name": "Shaheen Afridi", "team": "Pakistan", "role": "Bowler", "runs": 700, "wickets": 180},
+    {"player_id": 7, "name": "Kane Williamson", "team": "New Zealand", "role": "Batsman", "runs": 9000, "wickets": 6},
+    {"player_id": 8, "name": "Trent Boult", "team": "New Zealand", "role": "Bowler", "runs": 600, "wickets": 200},
+    {"player_id": 9, "name": "Steve Smith", "team": "Australia", "role": "Batsman", "runs": 9500, "wickets": 7},
+    {"player_id": 10, "name": "Pat Cummins", "team": "Australia", "role": "Bowler", "runs": 800, "wickets": 210}
+  ],
+  "matches": [
+    {"match_id": 1, "team1": "India", "team2": "Pakistan", "winner": "India", "venue": "Dubai"},
+    {"match_id": 2, "team1": "India", "team2": "Australia", "winner": "Australia", "venue": "Sydney"},
+    {"match_id": 3, "team1": "Pakistan", "team2": "New Zealand", "winner": "Pakistan", "venue": "Karachi"},
+    {"match_id": 4, "team1": "Australia", "team2": "New Zealand", "winner": "New Zealand", "venue": "Auckland"},
+    {"match_id": 5, "team1": "India", "team2": "New Zealand", "winner": "India", "venue": "Delhi"}
+  ],
+  "scores": [
+    {"score_id": 1, "match_id": 1, "player_id": 1, "runs": 77, "wickets": 0},
+    {"score_id": 2, "match_id": 1, "player_id": 4, "runs": 5, "wickets": 3},
+    {"score_id": 3, "match_id": 2, "player_id": 2, "runs": 120, "wickets": 0},
+    {"score_id": 4, "match_id": 2, "player_id": 10, "runs": 25, "wickets": 4},
+    {"score_id": 5, "match_id": 3, "player_id": 5, "runs": 88, "wickets": 0},
+    {"score_id": 6, "match_id": 3, "player_id": 6, "runs": 12, "wickets": 2},
+    {"score_id": 7, "match_id": 4, "player_id": 7, "runs": 65, "wickets": 0},
+    {"score_id": 8, "match_id": 4, "player_id": 8, "runs": 18, "wickets": 3},
+    {"score_id": 9, "match_id": 5, "player_id": 9, "runs": 99, "wickets": 0},
+    {"score_id": 10, "match_id": 5, "player_id": 4, "runs": 10, "wickets": 2}
+  ]
+}
+
