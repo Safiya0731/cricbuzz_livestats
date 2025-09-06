@@ -1,5 +1,5 @@
 import streamlit as st
-from ..utils.db_connection import get_connection
+from utils.db_connection import get_connection
 
 def app():
     st.title("✍️ CRUD Operations")
@@ -18,3 +18,4 @@ def app():
         conn.commit()
         conn.close()
         st.success("✅ Player added successfully!")
+
