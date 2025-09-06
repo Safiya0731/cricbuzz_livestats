@@ -19,3 +19,6 @@ def app():
         conn.close()
         st.success("✅ Player added successfully!")
 
+app()
+
+
